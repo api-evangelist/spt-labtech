@@ -1,8 +1,28 @@
 aid: spt-labtech
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spt-labtech.png
 name: SPT Labtech
-description: SPT Labtech is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  SPT Labtech is a life-sciences laboratory-automation company headquartered near
+  Cambridge, UK, that designs and manufactures instruments and consumables to accelerate
+  drug discovery and life-science research. Its portfolio spans liquid handling (firefly,
+  mosquito, dragonfly, apricot), sample preparation (chameleon for cryo-EM and Quantifoil
+  supports), and sample management and storage (comPOUND, comPACT, arktic, lab2lab, and
+  BioMicroLab). With 400+ employees across seven global locations and 30+ products, SPT
+  Labtech serves pharmaceutical, biotech, and academic laboratories. It is a portfolio
+  company of Battery Ventures. This profile was added to the API Evangelist network as a
+  company lead; SPT Labtech is a hardware and instrumentation vendor and publishes no
+  public developer API, SDK, or developer portal at this time.
 url: https://raw.githubusercontent.com/api-evangelist/spt-labtech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Life Sciences
+- Laboratory Automation
+- Liquid Handling
+- Sample Management
+- Drug Discovery
+- Biotechnology
+- Scientific Instruments
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/spt-labtech-domain-security.yml
+- type: Website
+  url: https://www.sptlabtech.com/
+- type: Blog
+  url: https://www.sptlabtech.com/blog
+- type: Support
+  url: https://www.sptlabtech.com/product-help-center
+- type: PrivacyPolicy
+  url: https://www.sptlabtech.com/privacy
+- type: TermsOfService
+  url: https://www.sptlabtech.com/legal
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
